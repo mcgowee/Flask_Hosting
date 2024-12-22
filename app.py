@@ -11,8 +11,6 @@ def submit_data():
     print(f"Received letters: {letters}")
     print(f"Received colors: {colors}")
 
-    # Perform backend processing here
-
     return jsonify({'status': 'success', 'message': 'Data received!'})
 
 if __name__ == "__main__":
